@@ -1,0 +1,46 @@
+#caixa {
+	width: 300px;
+	height: 300px;
+	/*background: url("../imagens/camera.png") #b9c941;*/
+	/*background: linear-gradient(to left, red, green);*/
+	/*background: linear-gradient(to right, red, green);*/
+	/*background: linear-gradient(to bottom, red, green);*/
+	/*background: linear-gradient(to top, red, green);*/
+	background: radial-gradient(red, green);
+
+	/*background: linear-gradient(to top, red, green);*/
+}
+
+#caixa h1 {
+	/*background: rgba(255, 255, 255, 0.8);*/
+}
+
+/*#caixa {
+	width: 300px;
+	height: 300px;
+	background: #b9c941;
+	padding: 50px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	/*margin: 10px;
+
+	-webkit-border-radius: 20px 90px;
+	-moz-border-radius: 20px 90px;
+
+	box-sizing: border-box;
+	border-radius: 10px 50px 80px 100px;
+}*/
+
+/*
+#caixa2 {
+	width: 300px;
+	height: 300px;
+	background: #b9c941;
+	/*padding: 50px;
+	border-radius: 10px 50px 80px 100px;
+	margin: 10px;
+}
+
+.arredondamento {
+	border-radius: 150px;
+}*/

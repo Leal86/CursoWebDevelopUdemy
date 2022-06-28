@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Cor e imagem de fundo</title>
+		<meta charset="utf-8">
+
+		<style type="text/css">
+			/*
+			.fundo {
+				background-color: #f2f2f2 ;
+			}
+			*/
+
+			body {
+				/*Usado para inserir imagem de fundo*/
+				background-image: url('imagens/yoshi.png');
+				
+				/*Usado para controlar a repetição de imagens
+				  no-repeat -> aparece somente uma vez
+				  repeat -> repete tanto na vertical quanto na horizontal
+				  repeat-x -> repete somente na horizontal
+				  repeat-y -> repete somente na vertical
+				*/
+				background-repeat: repeat-x;
+
+				/* 
+				   fixed  -> a imagem fica fixa como plano de fundo, independente da rolagem da página
+				   scroll -> a imagem fica fixa numa determinada parte da página	
+				*/
+				background-attachment: scroll;
+				
+				/*
+					Define o alinhamento da imagem utilizando dois valores
+					Sendo o 1º valor "left, center, right", para o alinhamento horizontal
+					e o 2º valor "top, center, bottom", para o alinhamento vertical.
+										
+				*/
+				background-position: center center; 
+			}
+
+			.fundo{
+				/*Exemplo de usar uma cor de fundo junto com uma imagem e todas as outras configurações acima*/
+				background: blue url("imagens/yoshi.png") no-repeat scroll left top;
+			}
+
+		</style>
+
+	</head>
+	<body class="fundo">
+
+		<h1>Conteúdo de título 1</h1>
+
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo ullamcorper justo vel dapibus. Nulla pellentesque sodales mauris, eu blandit velit ullamcorper ut. Donec ex libero, facilisis et augue interdum, venenatis lobortis turpis. Pellentesque bibendum nulla vel aliquam ultricies. Aliquam varius iaculis ante, a mollis dolor faucibus a. Curabitur nec eros mauris. Nam eu consequat eros.
+		</p>
+
+		<br><br><br><br><br>
+		<br><br><br><br><br>
+		<br><br><br><br><br>
+		<br><br><br><br><br>
+		<br><br><br><br><br>
+		<br><br><br><br><br>
+		<br><br><br><br><br>
+		<br><br><br><br><br>
+
+		<p>
+			Curabitur aliquet dolor et elit auctor commodo. Vivamus nec nulla sit amet mauris lobortis ultricies. Sed facilisis libero id metus congue, sit amet rhoncus lorem consectetur. Nulla lacinia eros posuere, consectetur lectus non, faucibus orci. Mauris tempus risus vestibulum interdum placerat. Quisque vulputate metus eu tortor sagittis porttitor. Vivamus non ex pellentesque, semper mi eu, feugiat nisl.
+		</p>
+
+		<p>
+			Curabitur varius ex vitae consectetur maximus. Nam pellentesque enim vel efficitur congue. Vivamus finibus convallis est, bibendum tincidunt nunc lacinia vitae. Fusce semper neque a sapien feugiat, ut pulvinar turpis semper. Praesent in lectus nisi. Vivamus ut quam ex. Ut pulvinar finibus nibh a commodo.
+		</p>
+
+	</body>
+</html>

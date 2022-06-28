@@ -1,0 +1,23 @@
+Site da documentaçao do FontAwesome
+
+https://fontawesome.com/how-to-use/on-the-web/referencing-icons/basic-use
+
+https://fontawesome.com/icons?d=gallery
+-------------------------------------------------------------------------------
+
+Site da documentaçao do Bootstrap
+
+https://getbootstrap.com/docs/5.0/getting-started/introduction/
+-------------------------------------------------------------------------------
+
+* COR DA BARRA DE MENU TOPO
+
+	#195493
+
+* COR ENTRE A BARRA DO MEU TOPO
+
+	#00AFEF
+
+* COR DE FUNDO
+
+	#F4F5F6

@@ -1,0 +1,36 @@
+/* Herança e Especificidade */
+
+/* Seletores iguais, exceção "imporntant" */
+/*
+#pagina p {
+	color: blue !important;
+}
+
+p {
+	color: red;
+}
+*/
+
+/* 
+   Se um seletor for mais específico que outro a 
+   refra mais espercifica sera aplicada (terá precedência
+   sobre as regras mais gerais)
+*/
+
+* {
+	color: red;
+}
+
+/* Ordem de prioridade para aplicação de formatação*/
+
+h2 {/*3*/
+	color: blue;
+}
+
+h2.verde {/*2*/
+	color: green;
+}
+
+h2#amarelo {/*1*/
+	color: yellow;
+}

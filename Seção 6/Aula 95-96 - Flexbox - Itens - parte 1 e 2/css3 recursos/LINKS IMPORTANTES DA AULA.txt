@@ -1,0 +1,11 @@
+SITE PARA VERIFICAR A COMPACTIBILIDADE DO FLEXBOX
+	* https://caniuse.com/#search=flexbox
+
+
+RECURSOS DE PREFIXO DO FLEXBOX
+	*https://autoprefixer.github.io
+
+
+
+CORREÇÃO DO FLEXBOX EM JAVASCRIPT PARA O NAVEGADOR IE NAS VERSOES ANTERIORES A 11
+	* https://github.com/jonathantneal/flexibility
